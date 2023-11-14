@@ -37,52 +37,11 @@ These instructions will help you set up and run the project on your local machin
 6. Running the Application
    ```bash
    npm run start:dev
-
-  
-
    
+### Technologies Used
+- Prisma: Utilized as an Object-Relational Mapping (ORM) tool to simplify database operations.
+- Argon2: Chosen for secure password hashing to enhance user authentication.
+- JWT (JSON Web Tokens): Implemented for secure and stateless user authentication.
+- class-validator: Integrated to streamline input validation for a cleaner and more maintainable codebase.
 
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+ 
